@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: 2bc061347ba4d7b428cfc43d614aacd0
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: barrells
+    100002: Cylinder11
+    100004: //RootNode
+    100006: wbody
+    100008: wcrane
+    100010: whood
+    100012: whorns
+    100014: Window
+    100016: wtbottom
+    100018: wtire02
+    100020: wtire03
+    100022: wtire04
+    100024: wtire1
+    100026: wwheel
+    400000: barrells
+    400002: Cylinder11
+    400004: //RootNode
+    400006: wbody
+    400008: wcrane
+    400010: whood
+    400012: whorns
+    400014: Window
+    400016: wtbottom
+    400018: wtire02
+    400020: wtire03
+    400022: wtire04
+    400024: wtire1
+    400026: wwheel
+    2100000: barrellsMat
+    2100002: Cylinder11Mat
+    2100004: wbodyMat
+    2100006: wcraneMat
+    2100008: whoodMat
+    2100010: whornsMat
+    2100012: WindowMat
+    2100014: wtbottomMat
+    2100016: wtire02Mat
+    2100018: wtire03Mat
+    2100020: wtire04Mat
+    2100022: wtire1Mat
+    2100024: wwheelMat
+    2300000: barrells
+    2300002: Cylinder11
+    2300004: wbody
+    2300006: wcrane
+    2300008: whood
+    2300010: whorns
+    2300012: Window
+    2300014: wtbottom
+    2300016: wtire02
+    2300018: wtire03
+    2300020: wtire04
+    2300022: wtire1
+    2300024: wwheel
+    3300000: barrells
+    3300002: Cylinder11
+    3300004: wbody
+    3300006: wcrane
+    3300008: whood
+    3300010: whorns
+    3300012: Window
+    3300014: wtbottom
+    3300016: wtire02
+    3300018: wtire03
+    3300020: wtire04
+    3300022: wtire1
+    3300024: wwheel
+    4300000: barrells
+    4300002: Cylinder11
+    4300004: wbody
+    4300006: wcrane
+    4300008: whood
+    4300010: whorns
+    4300012: Window
+    4300014: wtbottom
+    4300016: wtire02
+    4300018: wtire03
+    4300020: wtire04
+    4300022: wtire1
+    4300024: wwheel
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
