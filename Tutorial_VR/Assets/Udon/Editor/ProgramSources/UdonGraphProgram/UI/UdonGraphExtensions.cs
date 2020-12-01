@@ -311,11 +311,6 @@ namespace VRC.Udon.Editor.ProgramSources.UdonGraphProgram.UI
             typeString = typeString.Replace("IUdonEventReceiver", "UdonBehaviour");
             typeString = typeString.Replace("Const_VRCUdonCommonInterfacesIUdonEventReceiver", "UdonBehaviour");
             typeString = typeString.Replace("Array", "[]");
-            typeString = typeString.Replace("SDK3VideoComponentsBaseBase", "");
-            typeString = typeString.Replace("SDKBase", "");
-            typeString = typeString.Replace("SDK3Components", "");
-            typeString = typeString.Replace("VRCVRC", "VRC");
-            typeString = typeString.Replace("TMPro", "");
             // ReSharper disable once StringLiteralTypo
             if (typeString.Replace("ector", "").Contains("ctor")) //Handle "Vector/vector"
             {
@@ -447,7 +442,11 @@ namespace VRC.Udon.Editor.ProgramSources.UdonGraphProgram.UI
                 default:
                     break;
             }
-            return s;
+
+            s = s.Replace("_", " ");
+            s = ParseByCase(s);
+            TextInfo textInfo = new CultureInfo("en-US", false).TextInfo;
+            return textInfo.ToTitleCase(s);
         }
 
         public static string ParseByCase(string strInput)

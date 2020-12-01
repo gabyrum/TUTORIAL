@@ -11,7 +11,6 @@ using UnityEngine.UI;
 using UnityEngine.Video;
 #if VRC_SDK_VRCSDK3
 using VRC.SDK3.Components;
-using TMPro;
 #endif
 #if UDON
 using VRC.Udon;
@@ -516,12 +515,9 @@ namespace VRC.Core
                     {
                         nameof(UdonBehaviour.RunProgram),
                         nameof(UdonBehaviour.SendCustomEvent),
-                        nameof(UdonBehaviour.Interact),
+                        nameof(UdonBehaviour.Interact)
                     },
-                    new List<string>()
-                    {
-                        nameof(UdonBehaviour.enabled)
-                    })
+                    new List<string>())
             },
             #endif
             {
@@ -694,8 +690,7 @@ namespace VRC.Core
                     },
                     new List<string>
                     {
-                        nameof(Animator.speed),
-                        nameof(Animator.enabled)
+                        nameof(Animator.speed)
                     })
             },
             {
@@ -890,33 +885,7 @@ namespace VRC.Core
                         nameof(ToggleGroup.allowSwitchOff),
                         nameof(ToggleGroup.enabled)
                     })
-            },
-            #if VRC_SDK_VRCSDK3 // only access Cinemachine and TMPro after install
-            {
-                typeof(TextMeshPro), new AllowedMethodFilter(
-                    new List<string>(),
-                    new List<string>
-                    {
-                        nameof(TextMeshPro.text),
-                    })
-            },
-            {
-                typeof(TextMeshProUGUI), new AllowedMethodFilter(
-                    new List<string>(),
-                    new List<string>
-                    {
-                        nameof(TextMeshProUGUI.text),
-                    })
-            },
-            {
-                typeof(Cinemachine.CinemachineVirtualCamera), new AllowedMethodFilter(
-                    new List<string>()
-                    {
-                        nameof(Cinemachine.CinemachineVirtualCamera.Priority),
-                    },
-                    new List<string>())
-            },
-            #endif
+            }
         };
 
         private static readonly HashSet<string> _allowedAnimationEventFunctionNames = new HashSet<string>

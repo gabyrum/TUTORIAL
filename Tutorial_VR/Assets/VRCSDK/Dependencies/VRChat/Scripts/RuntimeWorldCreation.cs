@@ -191,18 +191,11 @@ namespace VRCSDK2
                             {
                                 HasExceededPublishLimit = true;
                             }
-
-                            if(Application.isPlaying)
-                            {
-                                SetupUI(hasSufficientTrustLevelToPublishToCommunityLabs, HasExceededPublishLimit);
-                            }
+                            SetupUI(hasSufficientTrustLevelToPublishToCommunityLabs, HasExceededPublishLimit);
                         },
                         (c) =>
                         {
-                            if(Application.isPlaying)
-                            {
-                                SetupUI(hasSufficientTrustLevelToPublishToCommunityLabs, HasExceededPublishLimit);
-                            }
+                            SetupUI(hasSufficientTrustLevelToPublishToCommunityLabs, HasExceededPublishLimit);
                         }
                     );
                 }
