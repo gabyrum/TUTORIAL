@@ -22,7 +22,8 @@ MonoBehaviour:
     null\r\n    Viaje: %UnityEngineAnimator, null\r\n\r\n.data_end\r\n\r\n.code_start\r\n\r\n
     \   .export _interact\r\n    \r\n    _interact:\r\n    \r\n        PUSH, instance_0\r\n
     \       PUSH, target_0\r\n        PUSH, eventName_0\r\n        EXTERN, \"VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid\"\r\n
-    \       PUSH, Viaje\r\n        PUSH, instance_1\r\n        COPY\r\n        PUSH,
+    \       JUMP, 0xFFFFFFFC\r\n    \r\n    .export Todos\r\n    \r\n    Todos:\r\n
+    \   \r\n        PUSH, Viaje\r\n        PUSH, instance_1\r\n        COPY\r\n        PUSH,
     Viaje\r\n        PUSH, instance_2\r\n        COPY\r\n        PUSH, instance_2\r\n
     \       PUSH, name_1\r\n        PUSH, Boolean_0\r\n        EXTERN, \"UnityEngineAnimator.__GetBool__SystemString__SystemBoolean\"\r\n
     \       PUSH, Boolean_0\r\n        PUSH, value_0\r\n        EXTERN, \"SystemBoolean.__op_UnaryNegation__SystemBoolean__SystemBoolean\"\r\n
@@ -66,13 +67,13 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|c6127000-fd58-4bf9-aaed-ce4da3cc7f45
     - fullName: VRCUdonCommonInterfacesIUdonEventReceiver.__SendCustomNetworkEvent__VRCUdonCommonInterfacesNetworkEventTarget_SystemString__SystemVoid
       uid: 8898ba01-dd3d-44e0-a577-b32e114bccd7
-      position: {x: 166.523, y: -64.12367}
+      position: {x: 208.7615, y: -362.44815}
       nodeUIDs:
       - 
       - 
       - 
       flowUIDs:
-      - 57003cbb-1743-4c5e-8b75-744cde7f3a54
+      - 
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: 
@@ -83,7 +84,7 @@ MonoBehaviour:
         stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Todos
     - fullName: Event_Interact
       uid: e0c954bf-d0e5-49ba-902a-ab0c712e1b32
-      position: {x: 22.11287, y: -139.07204}
+      position: {x: 57.355297, y: -362.18924}
       nodeUIDs: []
       flowUIDs:
       - 8898ba01-dd3d-44e0-a577-b32e114bccd7
@@ -124,15 +125,25 @@ MonoBehaviour:
       nodeValues:
       - unityObjectValue: {fileID: 0}
         stringValue: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|False
+    - fullName: Event_Custom
+      uid: b77a5cc3-e6f1-4171-b2ad-90c7099cff5b
+      position: {x: 377.3936, y: -56.849285}
+      nodeUIDs:
+      - 
+      flowUIDs:
+      - 57003cbb-1743-4c5e-8b75-744cde7f3a54
+      nodeValues:
+      - unityObjectValue: {fileID: 0}
+        stringValue: System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Todos
   graphElementData:
   - type: 5
-    uid: ff780c40-c6a9-4f96-8277-edc8bb2eb3d5
+    uid: af23b30d-4dc0-4a11-ba2d-28343e564123
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":10.0,"y":130.0,"width":200.0,"height":150.0}}'
   - type: 4
-    uid: ae0a679a-062d-4432-a30f-db84591e5531
+    uid: 72dfdc31-f776-4e8c-affd-599440aa575e
     jsonData: '{"visible":true,"layout":{"serializedVersion":"2","x":10.0,"y":20.0,"width":0.0,"height":0.0}}'
   viewTransform:
-    position: {x: 284.26398, y: 113.60024}
-    scale: 0.49717674
+    position: {x: 223.09181, y: 290.25864}
+    scale: 0.43232757
   version: 1.0.0
   showAssembly: 0
